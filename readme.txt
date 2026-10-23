@@ -9,7 +9,7 @@ Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Add a row of secure-checkout badges after the add-to-cart button to reassure shoppers about payment safety.
+Secure-checkout badges with short captions after the add-to-cart button and under Place order, so shoppers buy with confidence.
 
 == Description ==
 
@@ -88,6 +88,7 @@ Yes. This plugin is compatible with WordPress Multisite. Network activate it or 
 
 1. The trust-badge row beneath the add-to-cart button on a single product page.
 2. The Badgevo settings screen for badges.
+3. The badge row with captions under the Place order button on checkout.
 
 == External Services ==
 
