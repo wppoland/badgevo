@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Trust - Trust Badges for WooCommerce 0.1.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trust\n"
-"POT-Creation-Date: 2026-10-05T20:59:06+00:00\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/badgevo\n"
+"POT-Creation-Date: 2026-10-23T12:16:39+00:00\n"
 "PO-Revision-Date: 2026-06-16T20:23:40+00:00\n"
 "Last-Translator: motylanogha <szatkowski.mariusz@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
@@ -61,8 +61,8 @@ msgid ""
 "A slim, fixed secure-checkout bar pinned to the bottom of single product "
 "pages with custom messages and colors."
 msgstr ""
-"Eine schmale, fixierte Leiste für sichere Kaufabwicklung am unteren Rand der"
-" Produktseiten, mit eigenen Texten und Farben."
+"Eine schmale, fixierte Leiste für sichere Kaufabwicklung am unteren Rand der "
+"Produktseiten, mit eigenen Texten und Farben."
 
 #: config/pro-upsell.php:22
 msgid "Badge schedules"
@@ -170,12 +170,11 @@ msgstr "Beruhige Käufer in dem Moment, in dem sie sich zum Kauf entscheiden"
 
 #: src/Admin/Settings.php:140
 msgid ""
-"Badgevo shows a row of secure-checkout badges with a short heading after the"
-" add-to-cart button. Pick the badges, write the heading and choose the "
-"colour."
+"Badgevo shows a row of secure-checkout badges with a short heading after the "
+"add-to-cart button. Pick the badges, write the heading and choose the colour."
 msgstr ""
-"Badgevo zeigt nach dem Warenkorb-Button eine Reihe von Abzeichen für sichere"
-" Kaufabwicklung mit einer kurzen Überschrift. Wählen Sie die Abzeichen, "
+"Badgevo zeigt nach dem Warenkorb-Button eine Reihe von Abzeichen für sichere "
+"Kaufabwicklung mit einer kurzen Überschrift. Wählen Sie die Abzeichen, "
 "schreiben Sie die Überschrift und wählen Sie die Farbe."
 
 #: src/Admin/Settings.php:148
@@ -216,36 +215,64 @@ msgstr "Auf Produktseiten anzeigen"
 msgid ""
 "Show the badge row after the add-to-cart button on single product pages."
 msgstr ""
-"Zeige die Badge-Zeile nach der Schaltfläche „In den Warenkorb“ auf einzelnen"
-" Produktseiten an."
+"Zeige die Badge-Zeile nach der Schaltfläche „In den Warenkorb“ auf einzelnen "
+"Produktseiten an."
 
 #: src/Admin/Settings.php:169
 msgid ""
 "Turn this off to keep the badges out of the product template and place them "
-"yourself with the [trust_badges] shortcode, for example inside a footer or a"
-" block."
+"yourself with the [trust_badges] shortcode, for example inside a footer or a "
+"block."
 msgstr ""
 "Deaktiviere diese Option, um die Abzeichen aus der Produktvorlage "
 "herauszuhalten und sie selbst mit dem Shortcode [trust_badges] zu "
 "platzieren, beispielsweise in einer Fußzeile oder einem Block."
 
 #: src/Admin/Settings.php:173
+msgid "Show on checkout"
+msgstr ""
+
+#: src/Admin/Settings.php:177
+msgid "Show the badge row on checkout, near the Place order button."
+msgstr ""
+
+#: src/Admin/Settings.php:179
+msgid ""
+"On the classic checkout it sits under the button. With the Checkout block it "
+"sits under the checkout form, below the button."
+msgstr ""
+
+#: src/Admin/Settings.php:183
+msgid "Show captions"
+msgstr ""
+
+#: src/Admin/Settings.php:187
+msgid "Print a short caption under each badge, such as \"Secure checkout\"."
+msgstr ""
+
+#: src/Admin/Settings.php:189
+msgid ""
+"Turn this off for icons only. Screen readers hear the same caption either "
+"way."
+msgstr ""
+
+#: src/Admin/Settings.php:193
 msgid "Show the heading"
 msgstr "Überschrift anzeigen"
 
-#: src/Admin/Settings.php:177
+#: src/Admin/Settings.php:197
 msgid "Print a line of text above the badges."
 msgstr "Eine Textzeile über den Abzeichen ausgeben."
 
-#: src/Admin/Settings.php:179
+#: src/Admin/Settings.php:199
 msgid "Turn this off to show the icons on their own."
 msgstr "Schalten Sie dies aus, um nur die Symbole zu zeigen."
 
-#: src/Admin/Settings.php:184
+#: src/Admin/Settings.php:204
 msgid "Heading"
 msgstr "Überschrift"
 
-#: src/Admin/Settings.php:189
+#: src/Admin/Settings.php:209
 msgid ""
 "Short reassurance shown above the badges. Keep it under a line so it reads "
 "at a glance; leave it empty to use the wording shown in the field, "
@@ -255,25 +282,25 @@ msgstr ""
 "Zeile, damit er auf einen Blick lesbar ist; leer lassen, um den im Feld "
 "gezeigten Text in der Sprache Ihrer Website zu verwenden."
 
-#: src/Admin/Settings.php:206
+#: src/Admin/Settings.php:226
 msgid "Icon colour"
 msgstr "Symbolfarbe"
 
-#: src/Admin/Settings.php:210
+#: src/Admin/Settings.php:230
 msgid ""
 "Tints the icons and heading. Pick a shade that stays readable against your "
 "product page background, a dark slate or your brand colour usually works "
 "best."
 msgstr ""
 "Tönt die Symbole und Überschriften. Wähle einen Farbton, der vor dem "
-"Hintergrund deiner Produktseite gut lesbar bleibt. Eine dunkle Schieferfarbe"
-" oder deine Markenfarbe funktioniert normalerweise am besten."
+"Hintergrund deiner Produktseite gut lesbar bleibt. Eine dunkle Schieferfarbe "
+"oder deine Markenfarbe funktioniert normalerweise am besten."
 
-#: src/Admin/Settings.php:218
+#: src/Admin/Settings.php:238
 msgid "Badges"
 msgstr "Abzeichen"
 
-#: src/Admin/Settings.php:219
+#: src/Admin/Settings.php:239
 msgid ""
 "Choose which bundled badges to show. They are safe inline graphics, no "
 "external requests and no third-party logos."
@@ -282,49 +309,99 @@ msgstr ""
 "sich um sichere Inline-Grafiken, keine externen Anforderungen und keine "
 "Logos Dritter."
 
-#: src/Admin/Settings.php:222
+#: src/Admin/Settings.php:242
 msgid "Bundled badges"
 msgstr "Gebündelte Abzeichen"
 
-#: src/Badges/BadgeLibrary.php:43
+#: src/Badges/BadgeLibrary.php:46
 msgid "Secure checkout (lock)"
 msgstr "Sichere Kasse (Schloss)"
 
 #: src/Badges/BadgeLibrary.php:47
+msgctxt "badge caption shown to shoppers"
+msgid "Secure checkout"
+msgstr ""
+
+#: src/Badges/BadgeLibrary.php:51
 msgid "SSL encrypted"
 msgstr "SSL-verschlüsselt"
 
-#: src/Badges/BadgeLibrary.php:51
+#: src/Badges/BadgeLibrary.php:52
+msgctxt "badge caption shown to shoppers"
+msgid "SSL encrypted"
+msgstr ""
+
+#: src/Badges/BadgeLibrary.php:56
 msgid "Money-back guarantee"
 msgstr "Geld-zurück-Garantie"
 
-#: src/Badges/BadgeLibrary.php:55
+#: src/Badges/BadgeLibrary.php:57
+msgctxt "badge caption shown to shoppers"
+msgid "Money-back guarantee"
+msgstr ""
+
+#: src/Badges/BadgeLibrary.php:61
 msgid "Verified / trusted store"
 msgstr "Verifizierter / vertrauenswürdiger Shop"
 
-#: src/Badges/BadgeLibrary.php:59
+#: src/Badges/BadgeLibrary.php:62
+msgctxt "badge caption shown to shoppers"
+msgid "Verified store"
+msgstr ""
+
+#: src/Badges/BadgeLibrary.php:66
 msgid "Free shipping (truck)"
 msgstr "Kostenloser Versand (LKW)"
 
-#: src/Badges/BadgeLibrary.php:63
+#: src/Badges/BadgeLibrary.php:67
+msgctxt "badge caption shown to shoppers"
+msgid "Free shipping"
+msgstr ""
+
+#: src/Badges/BadgeLibrary.php:71
 msgid "Card payment"
 msgstr "Kartenzahlung"
 
-#: src/Badges/BadgeLibrary.php:67
+#: src/Badges/BadgeLibrary.php:72
+msgctxt "badge caption shown to shoppers"
+msgid "Card payments"
+msgstr ""
+
+#: src/Badges/BadgeLibrary.php:76
 msgid "Digital wallet"
 msgstr "Digitale Geldbörse"
 
-#: src/Badges/BadgeLibrary.php:71
+#: src/Badges/BadgeLibrary.php:77
+msgctxt "badge caption shown to shoppers"
+msgid "Digital wallets"
+msgstr ""
+
+#: src/Badges/BadgeLibrary.php:81
 msgid "24/7 support (headset)"
 msgstr "24/7-Support (Headset)"
 
-#: src/Badges/BadgeLibrary.php:75
+#: src/Badges/BadgeLibrary.php:82
+msgctxt "badge caption shown to shoppers"
+msgid "24/7 support"
+msgstr ""
+
+#: src/Badges/BadgeLibrary.php:86
 msgid "Privacy protected"
 msgstr "Privatsphäre geschützt"
 
-#: src/Badges/BadgeLibrary.php:79
+#: src/Badges/BadgeLibrary.php:87
+msgctxt "badge caption shown to shoppers"
+msgid "Privacy protected"
+msgstr ""
+
+#: src/Badges/BadgeLibrary.php:91
 msgid "Satisfaction (thumbs up)"
 msgstr "Zufriedenheit (Daumen hoch)"
+
+#: src/Badges/BadgeLibrary.php:92
+msgctxt "badge caption shown to shoppers"
+msgid "Satisfaction guaranteed"
+msgstr ""
 
 #: src/Service/Texts.php:33
 msgid "Guaranteed safe checkout"
@@ -349,13 +426,13 @@ msgstr "Garantiert sichere Kaufabwicklung"
 #~ msgstr "https://plogins.com/"
 
 #~ msgid ""
-#~ "Trust shows a row of secure-checkout badges with a short heading after the "
-#~ "add-to-cart button. Pick the badges, write the heading and choose the "
+#~ "Trust shows a row of secure-checkout badges with a short heading after "
+#~ "the add-to-cart button. Pick the badges, write the heading and choose the "
 #~ "colour."
 #~ msgstr ""
 #~ "Trust zeigt eine Reihe von Secure-Checkout-Badges mit einer kurzen "
-#~ "Überschrift nach der Schaltfläche „In den Warenkorb“ an. Wähle die Abzeichen"
-#~ " aus, schreibe die Überschrift und wähle die Farbe."
+#~ "Überschrift nach der Schaltfläche „In den Warenkorb“ an. Wähle die "
+#~ "Abzeichen aus, schreibe die Überschrift und wähle die Farbe."
 
 #~ msgid ""
 #~ "Trust works out of the box: leaving everything at its defaults shows four "
@@ -364,15 +441,15 @@ msgstr "Garantiert sichere Kaufabwicklung"
 #~ msgstr ""
 #~ "Trust funktioniert sofort: Wenn du alles auf den Standardeinstellungen "
 #~ "belässt, werden unter der Schaltfläche „Zum Warenkorb hinzufügen“ vier "
-#~ "Abzeichen für den sicheren Checkout angezeigt. Passe unten nur an, wenn du "
-#~ "ändern möchtest, was angezeigt wird oder wo."
+#~ "Abzeichen für den sicheren Checkout angezeigt. Passe unten nur an, wenn "
+#~ "du ändern möchtest, was angezeigt wird oder wo."
 
 #~ msgid ""
-#~ "Short reassurance shown above the badges. Keep it under a line so it reads "
-#~ "at a glance; leave it empty to show the icons on their own."
+#~ "Short reassurance shown above the badges. Keep it under a line so it "
+#~ "reads at a glance; leave it empty to show the icons on their own."
 #~ msgstr ""
-#~ "Kurze Bestätigung über den Abzeichen. Halte es unter einer Zeile, damit du "
-#~ "es auf einen Blick lesen können. Lass es leer, um die Symbole einzeln "
+#~ "Kurze Bestätigung über den Abzeichen. Halte es unter einer Zeile, damit "
+#~ "du es auf einen Blick lesen können. Lass es leer, um die Symbole einzeln "
 #~ "anzuzeigen."
 
 #~ msgid ""
