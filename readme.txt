@@ -4,7 +4,7 @@ Tags: woocommerce, trust badges, secure checkout, conversion, ecommerce
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,7 @@ The source lives on GitHub at [github.com/wppoland/plogins-trust](https://github
 * **Plugin page**: [plogins.com/plogins-trust/](https://plogins.com/plogins-trust/)
 * **Source code**: [github.com/wppoland/plogins-trust](https://github.com/wppoland/plogins-trust)
 * **Bug reports and feature requests**: [github.com/wppoland/plogins-trust/issues](https://github.com/wppoland/plogins-trust/issues)
+* **Badgevo Pro**: [plogins.com/plogins-trust-pro/](https://plogins.com/plogins-trust-pro/)
 
 
 = Where badges appear =
@@ -50,6 +51,22 @@ A settings page under the WooCommerce menu lets you:
 * Show the row on checkout as well.
 * Show or hide the caption under each badge.
 * Choose the icon colour.
+
+== Badgevo Pro ==
+
+Badgevo Pro is a separate paid plugin that works on top of Badgevo. It adds:
+
+* Sticky trust bar
+* Badge schedules
+* Per-product badge sets
+* Badge impression analytics
+* Expanded badge library
+
+The free edition is not a trial and its features stay available without a time limit.
+
+* **Badgevo Pro** - [plogins.com/plogins-trust-pro/](https://plogins.com/plogins-trust-pro/)
+* **Compare editions and pricing** - [plogins.com/plogins-trust-pro/pricing/](https://plogins.com/plogins-trust-pro/pricing/)
+* **PRO documentation** - [plogins.com/plogins-trust-pro/docs/](https://plogins.com/plogins-trust-pro/docs/)
 
 == Installation ==
 
@@ -99,6 +116,9 @@ Badgevo does not connect to any external services. Every badge is a bundled inli
 Badgevo is fully translatable and ships the `badgevo.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.2.1 =
+* Readme only: a PRO section with links to the paid edition.
 
 = 1.2.0 =
 * New: "Show on checkout" setting. The badge row appears under the Place order button on the classic checkout, and under the checkout form with the Checkout block. Off by default.
