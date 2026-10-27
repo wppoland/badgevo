@@ -54,13 +54,20 @@ A settings page under the WooCommerce menu lets you:
 
 == Badgevo Pro ==
 
-Badgevo Pro is a separate paid plugin that works on top of Badgevo. It adds:
+Badgevo Pro is a separate paid plugin that extends Badgevo:
 
-* Sticky trust bar
-* Badge schedules
-* Per-product badge sets
-* Badge impression analytics
-* Expanded badge library
+| Feature | Free | Pro |
+|:--- |:---:|:---:|
+| Bundled SVG badges | Yes | Yes |
+| Badge selection | Yes | Yes |
+| No external requests | Yes | Yes |
+| No layout shift | Yes | Yes |
+| Accessibility | Yes | Yes |
+| Sticky trust bar | - | Yes |
+| Badge schedules | - | Yes |
+| Per-product badge sets | - | Yes |
+| Badge impression analytics | - | Yes |
+| Expanded badge library | - | Yes |
 
 The free edition is not a trial and its features stay available without a time limit.
 
