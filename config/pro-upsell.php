@@ -12,6 +12,8 @@ defined('ABSPATH') || exit;
 return [
     'name'       => 'Badgevo Pro',
     'url'        => 'https://plogins.com/plogins-trust-pro/pricing/',
+    'campaign'   => 'plogins-trust',
+    'locales'    => ['pl', 'de', 'es'],
     'sellable'   => true,
     'price_from' => 19,
     'currency'   => 'EUR',

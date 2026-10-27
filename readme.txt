@@ -4,7 +4,7 @@ Tags: woocommerce, trust badges, secure checkout, conversion, ecommerce
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -54,20 +54,23 @@ A settings page under the WooCommerce menu lets you:
 
 == Badgevo Pro ==
 
-Badgevo Pro is a separate paid plugin that extends Badgevo:
+Badgevo Pro is a separate paid plugin that extends Badgevo.
 
-| Feature | Free | Pro |
-|:--- |:---:|:---:|
-| Bundled SVG badges | Yes | Yes |
-| Badge selection | Yes | Yes |
-| No external requests | Yes | Yes |
-| No layout shift | Yes | Yes |
-| Accessibility | Yes | Yes |
-| Sticky trust bar | - | Yes |
-| Badge schedules | - | Yes |
-| Per-product badge sets | - | Yes |
-| Badge impression analytics | - | Yes |
-| Expanded badge library | - | Yes |
+Included in Badgevo:
+
+* Bundled SVG badges
+* Badge selection
+* No external requests
+* No layout shift
+* Accessibility
+
+Badgevo Pro adds:
+
+* Sticky trust bar
+* Badge schedules
+* Per-product badge sets
+* Badge impression analytics
+* Expanded badge library
 
 The free edition is not a trial and its features stay available without a time limit.
 
@@ -123,6 +126,10 @@ Badgevo does not connect to any external services. Every badge is a bundled inli
 Badgevo is fully translatable and ships the `badgevo.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.2.2 =
+* The Upgrade to PRO links open the pricing page in the admin's language where plogins.com has one, and tell plogins.com which plugin the visit came from (utm_source, utm_medium and utm_campaign in the link). Nothing is sent from your site.
+* Readme: the PRO section lists what the free plugin includes and what the paid edition adds as two lists, which WordPress.org can display (it does not display tables).
 
 = 1.2.1 =
 * Readme only: a PRO section with links to the paid edition.
