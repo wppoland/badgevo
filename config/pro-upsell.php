@@ -4,15 +4,15 @@
  * scripts/gen-pro-upsell.mjs. The admin upsell renders this; curate the
  * feature list to fit this plugin's settings screen (do not invent features).
  *
- * @package plogins-trust-pro
+ * @package badgevo-pro
  */
 
 defined('ABSPATH') || exit;
 
 return [
     'name'       => 'Badgevo Pro',
-    'url'        => 'https://plogins.com/plogins-trust-pro/pricing/',
-    'campaign'   => 'plogins-trust',
+    'url'        => 'https://plogins.com/badgevo-pro/pricing/',
+    'campaign'   => 'badgevo',
     'locales'    => ['pl', 'de', 'es'],
     'sellable'   => true,
     'price_from' => 19,
