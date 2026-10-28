@@ -4,7 +4,7 @@ Tags: woocommerce, trust badges, secure checkout, conversion, ecommerce
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -24,15 +24,15 @@ It is built to stay out of the way:
 * **Accessible.** Each badge has an accessible name and the row is marked up as a list. The small hover animation is skipped for visitors who set `prefers-reduced-motion`.
 * **Inherits your colour.** Set one colour and every badge follows it via `currentColor`.
 
-The source lives on GitHub at [github.com/wppoland/plogins-trust](https://github.com/wppoland/plogins-trust) if you want to read the code or report a bug.
+The source lives on GitHub at [github.com/wppoland/badgevo](https://github.com/wppoland/badgevo) if you want to read the code or report a bug.
 
 = Documentation and links =
 
-* **Documentation**: [plogins.com/plogins-trust/docs/](https://plogins.com/plogins-trust/docs/)
-* **Plugin page**: [plogins.com/plogins-trust/](https://plogins.com/plogins-trust/)
-* **Source code**: [github.com/wppoland/plogins-trust](https://github.com/wppoland/plogins-trust)
-* **Bug reports and feature requests**: [github.com/wppoland/plogins-trust/issues](https://github.com/wppoland/plogins-trust/issues)
-* **Badgevo Pro**: [plogins.com/plogins-trust-pro/](https://plogins.com/plogins-trust-pro/)
+* **Documentation**: [plogins.com/badgevo/docs/](https://plogins.com/badgevo/docs/)
+* **Plugin page**: [plogins.com/badgevo/](https://plogins.com/badgevo/)
+* **Source code**: [github.com/wppoland/badgevo](https://github.com/wppoland/badgevo)
+* **Bug reports and feature requests**: [github.com/wppoland/badgevo/issues](https://github.com/wppoland/badgevo/issues)
+* **Badgevo Pro**: [plogins.com/badgevo-pro/](https://plogins.com/badgevo-pro/)
 
 
 = Where badges appear =
@@ -74,9 +74,9 @@ Badgevo Pro adds:
 
 The free edition is not a trial and its features stay available without a time limit.
 
-* **Badgevo Pro** - [plogins.com/plogins-trust-pro/](https://plogins.com/plogins-trust-pro/)
-* **Compare editions and pricing** - [plogins.com/plogins-trust-pro/pricing/](https://plogins.com/plogins-trust-pro/pricing/)
-* **PRO documentation** - [plogins.com/plogins-trust-pro/docs/](https://plogins.com/plogins-trust-pro/docs/)
+* **Badgevo Pro** - [plogins.com/badgevo-pro/](https://plogins.com/badgevo-pro/)
+* **Compare editions and pricing** - [plogins.com/badgevo-pro/pricing/](https://plogins.com/badgevo-pro/pricing/)
+* **PRO documentation** - [plogins.com/badgevo-pro/docs/](https://plogins.com/badgevo-pro/docs/)
 
 == Installation ==
 
@@ -126,6 +126,9 @@ Badgevo does not connect to any external services. Every badge is a bundled inli
 Badgevo is fully translatable and ships the `badgevo.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.2.3 =
+* Links point at the new plogins.com address and the renamed GitHub repository.
 
 = 1.2.2 =
 * The Upgrade to PRO links open the pricing page in the admin's language where plogins.com has one, and tell plogins.com which plugin the visit came from (utm_source, utm_medium and utm_campaign in the link). Nothing is sent from your site.

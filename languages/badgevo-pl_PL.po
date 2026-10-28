@@ -24,8 +24,8 @@ msgstr "Badgevo - odznaki zaufania dla WooCommerce"
 
 #. Plugin URI of the plugin
 #: badgevo.php
-msgid "https://plogins.com/plogins-trust/"
-msgstr "https://plogins.com/plogins-trust/"
+msgid "https://plogins.com/badgevo/"
+msgstr "https://plogins.com/badgevo/"
 
 #. Description of the plugin
 #: badgevo.php
