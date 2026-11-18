@@ -25,5 +25,6 @@ return [
         ['title' => __('Per-product badge sets', 'badgevo'), 'desc' => __('Choose a custom badge list on the product General tab for the badge row and sticky bar on that product page.', 'badgevo')],
         ['title' => __('Badge impression analytics', 'badgevo'), 'desc' => __('Per-badge view counters, split by placement, on their own report screen.', 'badgevo')],
         ['title' => __('Expanded badge library', 'badgevo'), 'desc' => __('12 additional inline-SVG badges, curated preset sets and visual pickers.', 'badgevo')],
+        ['title' => __('Payment methods box', 'badgevo'), 'desc' => __('Accepted payment methods as text chips on the product page, cart, checkout or via [trust_payment_methods]; automatic mode follows the enabled gateways.', 'badgevo')],
     ],
 ];
