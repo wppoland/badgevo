@@ -71,6 +71,7 @@ Badgevo Pro adds:
 * Per-product badge sets
 * Badge impression analytics
 * Expanded badge library
+* Payment methods box
 
 The free edition is not a trial and its features stay available without a time limit.
 
