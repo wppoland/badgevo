@@ -4,7 +4,7 @@ Tags: woocommerce, trust badges, secure checkout, conversion, ecommerce
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -127,6 +127,9 @@ Badgevo does not connect to any external services. Every badge is a bundled inli
 Badgevo is fully translatable and ships the `badgevo.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.2.4 =
+* Fixed unreadable badge labels on light themes when the visitor's system is set to dark mode. The badge row switched to a dark background while the page stayed light, so the labels nearly vanished. The row now always follows your theme's colours.
 
 = 1.2.3 =
 * Links point at the new plogins.com address and the renamed GitHub repository.
