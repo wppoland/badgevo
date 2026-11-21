@@ -10,7 +10,8 @@
  * CSS-only, no JavaScript, no layout shift. Every colour/size is a themeable
  * `--trust-*` token with a theme-inheriting fallback, so a single inline
  * override (the merchant's chosen colour) re-themes the whole strip. Motion is
- * gated behind prefers-reduced-motion; a dark-scheme variant is included.
+ * gated behind prefers-reduced-motion. There is no OS dark-scheme variant: the
+ * strip follows the theme, so a dark theme sets the `--trust-*` tokens itself.
  */
 
 .trust-badges {
@@ -233,12 +234,3 @@
 	}
 }
 
-/* Dark scheme: the paper becomes engraved plate, the seal brightens. */
-@media (prefers-color-scheme: dark) {
-	.trust-badges {
-		--trust-seal: var(--wp--preset--color--primary, #5fd6b6);
-		--trust-paper: color-mix(in srgb, var(--trust-seal) 8%, #14171c);
-		--trust-rule: color-mix(in srgb, var(--trust-seal) 30%, transparent);
-		--trust-emboss: color-mix(in srgb, var(--trust-seal) 20%, transparent);
-	}
-}
