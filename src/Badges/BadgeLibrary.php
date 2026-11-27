@@ -31,11 +31,33 @@ final class BadgeLibrary
     private static ?array $badges = null;
 
     /**
-     * All bundled badges, keyed by slug.
+     * All badges, keyed by slug: the bundled set plus whatever add-ons append.
+     *
+     * Only the bundled set is cached. The filter runs on every call, so badges
+     * an add-on registers are never dropped by a cache filled before it hooked in.
      *
      * @return array<string, array{label: string, caption?: string, svg: string}>
      */
     public static function all(): array
+    {
+        /**
+         * Filter the bundled badge library.
+         *
+         * Add-ons can append generic inline SVG badges. The array is keyed by
+         * slug and each item must contain a label and trusted SVG markup.
+         *
+         * @param array<string, array{label: string, caption?: string, svg: string}> $badges Badge definitions.
+         *                                                                         A badge without a caption shows its label.
+         */
+        return (array) apply_filters('trust/badge_library', self::bundled());
+    }
+
+    /**
+     * The badges this plugin ships, built once per request.
+     *
+     * @return array<string, array{label: string, caption: string, svg: string}>
+     */
+    private static function bundled(): array
     {
         if (self::$badges !== null) {
             return self::$badges;
@@ -94,16 +116,7 @@ final class BadgeLibrary
             ],
         ];
 
-        /**
-         * Filter the bundled badge library.
-         *
-         * Add-ons can append generic inline SVG badges. The array is keyed by
-         * slug and each item must contain a label and trusted SVG markup.
-         *
-         * @param array<string, array{label: string, caption?: string, svg: string}> $badges Badge definitions.
-         *                                                                         A badge without a caption shows its label.
-         */
-        return (array) apply_filters('trust/badge_library', self::$badges);
+        return self::$badges;
     }
 
     public static function has(string $slug): bool
