@@ -1,10 +1,10 @@
 === Badgevo - Trust Badges for WooCommerce ===
 Contributors: motylanogha
-Tags: woocommerce, trust badges, secure checkout, conversion, ecommerce
+Tags: trust badges, trust badge, secure checkout, trust seal, trust
 Requires at least: 6.5
 Tested up to: 7.2
 Requires PHP: 8.1
-Stable tag: 1.2.5
+Stable tag: 1.2.6
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -127,6 +127,9 @@ Badgevo does not connect to any external services. Every badge is a bundled inli
 Badgevo is fully translatable and ships the `badgevo.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.2.6 =
+* Readme: tags updated.
 
 = 1.2.5 =
 * Fixed: badges an add-on adds to the library (for example the 11 Badgevo Pro badges) were kept only on the first read of the library in a request. Every later read dropped them, so they could not be saved or shown. The add-on badges are now part of every read.
